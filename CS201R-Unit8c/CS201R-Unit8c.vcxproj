@@ -128,14 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CS201R-Unit8c.cpp" />
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Employee.h" />
     <ClInclude Include="Functions.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Staff.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="Teacher.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="people.txt" />

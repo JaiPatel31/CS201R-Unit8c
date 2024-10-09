@@ -26,7 +26,7 @@ public:
 	void   setAge(int a) { age = a; }        //mutator (age)
 	void   setfName(string f) { fname = f; }   //mutator (first name)
 	void   setlName(string l) { lname = l; }   //mutator (last name)
-	void   print();
+	virtual void   print();
 
 	static int totalPerson;
 };

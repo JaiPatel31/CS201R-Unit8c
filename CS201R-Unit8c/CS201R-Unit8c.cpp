@@ -7,15 +7,13 @@ int Student::totalStudent = 0;
 
 
 int main() {
-    vector <Person> thePeople;
-    vector <Student> students;
+    vector <Person*> thePeople;
 
     //ADD: a student & print student 
 
     //UPDATE: readFile to read students and add to thePeople
-    readFile(thePeople, students);
+    readFile(thePeople);
 
     //NOTE: printing the vector demonstrates slicing
     printVector(thePeople);
-    printVector(students);
 }
